@@ -25,5 +25,11 @@
 .contacts{
   text-align: center;
   background-image: url("../images/c_image.jpg");
+}
 
+#p1, #p2, #p3{
+  display: none;
+}
+body {
+  cursor: pointer;
 }
