@@ -12,9 +12,11 @@ $("document").ready(function(){
     $("#img3").fadeToggle(1000);
   });
 });
-
-$("#button").onClick(function(){
+$("document").ready(function(){
+  
+$("#button").Click(function(){
   alert("Thank you for contacting us.");
+});
 });
 //   $('.form-cont').submit(function(event) {
 //  var name = $('input#button').val();
