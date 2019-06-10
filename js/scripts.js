@@ -1,23 +1,14 @@
 $(document).ready(function(){
   $('#1').click(function(){
-    $("#p1").fadeToggle();
-    $("#img1").fadeToggle();
+    $("#p1").fadeToggle(1000);
+    $("#img1").fadeToggle(1000);
   });
   $('#2').click(function(){
-    $("#p2").fadeToggle();
-    $("#img2").fadeToggle();
+    $("#p2").fadeToggle(1000);
+    $("#img2").fadeToggle(1000);
   });
   $('#3').click(function(){
-    $("#p3").fadeToggle();
-    $("#img3").fadeToggle();
+    $("#p3").fadeToggle(1000);
+    $("#img3").fadeToggle(1000);
   });
 });
-
-// ---------portfolio---------
-// $(document).ready(function(){
-
-  // $(".img-thumbnail").hover(function() {
-    // $((".h2").toggle();
-    // $('.h2').toggle();
-  // });
-// });
