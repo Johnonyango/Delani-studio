@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$("document").ready(function(){
   $('#1').click(function(){
     $("#p1").fadeToggle(1000);
     $("#img1").fadeToggle(1000);
@@ -13,8 +13,12 @@ $(document).ready(function(){
   });
 });
 
-// --------User Interface------
-$(document).ready(function) {
-  $("#button").function();
-  alert "Thank you for contacting us"
+$("#button").onClick(function(){
+  alert("Thank you for contacting us.");
 });
+//   $('.form-cont').submit(function(event) {
+//  var name = $('input#button').val();
+//  var email = $('input#email').val();
+//  if (name && email != '') {
+// });
+// });
