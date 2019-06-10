@@ -3,4 +3,9 @@ $(document).ready(function(){
     $("#p1").fadeToggle();
     $("#img1").fadeToggle();
   });
+  $('#2').click(function(){
+    $("#p2").fadeToggle();
+    $("#img2").fadeToggle();
+  });
+  
 });

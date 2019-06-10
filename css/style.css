@@ -36,3 +36,6 @@ body {
 .row img :hover {
   background-color: blue;
 }
+#last {
+  text-align: center;
+}
