@@ -12,3 +12,12 @@ $(document).ready(function(){
     $("#img3").fadeToggle();
   });
 });
+
+// ---------portfolio---------
+$(document).ready(function(){
+
+  $(".img-thumbnail").hover(function() {
+    $((".h2").fadeIn();
+    $('.h2').fadeOut();
+  });
+});
