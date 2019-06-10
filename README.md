@@ -25,7 +25,7 @@
    </tr>
    <tr>
        <td>Enter Email && Message</td>
-       <td>['Email','Message']</td>
+       <td>["Email adress","Message"]</td>
        <td>Email && Message</td>
    </tr>
    <tr>

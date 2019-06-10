@@ -13,14 +13,13 @@ $("document").ready(function(){
   });
 });
 $("document").ready(function(){
-  
+
 $("#button").Click(function(){
   alert("Thank you for contacting us.");
 });
+$('.portfolio')(function(){
+  $('.col-3','.img-fluid').hover();
+  $('.col-3', '.img-fluid').toggle();
+  $('.col-3 p').show();
 });
-//   $('.form-cont').submit(function(event) {
-//  var name = $('input#button').val();
-//  var email = $('input#email').val();
-//  if (name && email != '') {
-// });
-// });
+});
