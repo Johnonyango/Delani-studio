@@ -4,13 +4,37 @@
 ## Description
 {This project details more on what Delani studio does, their main products and services. The website is very interractive and allowas individual users to send and receive messages through imputing their emails. }
 ## Setup/Installation Requirements
-<!-- * clone to link -->
+* clone to link https://johnonyango.github.io/Delani-studio/
 * cd Delani-studio to your directory
 * double check
 * open with your browser
 * edit the browser as per any necessity
 ## Known Bugs
 {Several changes made in the styles.css and html files as well as scripts.}
+##BDD
+<table>
+   <tr>
+     <th>Behavior</th>
+     <th>Input</th>
+     <th>Output</th>   
+   </tr>
+   <tr>
+       <td>Enter your name</td>
+       <td>['John Onyango']</td>
+       <td>name = 'John Onyango'</td>
+   </tr>
+   <tr>
+       <td>Enter Email && Message</td>
+       <td>['Email','Message']</td>
+       <td>Email && Message</td>
+   </tr>
+   <tr>
+       <td>Submit</td>
+       <td>Email && Message</td>
+       <td>Dear John, your details received. Thank you for contacting us.</td>
+   </tr>
+
+</table>
 ## Technologies/Tools Used
 {html
 CSS
