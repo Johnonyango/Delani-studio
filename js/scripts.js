@@ -14,10 +14,10 @@ $(document).ready(function(){
 });
 
 // ---------portfolio---------
-$(document).ready(function(){
+// $(document).ready(function(){
 
-  $(".img-thumbnail").hover(function() {
-    $((".h2").fadeIn();
-    $('.h2').fadeOut();
-  });
-});
+  // $(".img-thumbnail").hover(function() {
+    // $((".h2").toggle();
+    // $('.h2').toggle();
+  // });
+// });
