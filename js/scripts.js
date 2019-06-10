@@ -7,5 +7,8 @@ $(document).ready(function(){
     $("#p2").fadeToggle();
     $("#img2").fadeToggle();
   });
-  
+  $('#3').click(function(){
+    $("#p3").fadeToggle();
+    $("#img3").fadeToggle();
+  });
 });
