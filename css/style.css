@@ -37,11 +37,9 @@ body {
   cursor: pointer;
 }
 
-/*#last a:hover {
-  background-color: orange;
-
+.col-3 p {
+  display: none;
 }
-}*/
 
 #last {
   left:30%;

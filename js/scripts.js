@@ -12,3 +12,9 @@ $(document).ready(function(){
     $("#img3").fadeToggle(1000);
   });
 });
+
+// --------User Interface------
+$(document).ready(function) {
+  $("#button").function();
+  alert "Thank you for contacting us"
+});
