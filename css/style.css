@@ -37,9 +37,6 @@ body {
   cursor: pointer;
 }
 
-.col-3 p {
-  display: none;
-}
 
 #last {
   left:30%;
@@ -47,23 +44,18 @@ body {
 
 }
 
-/* img:hover .overlay {
-  opacity: 1;
-} */
 
-.img-thumbnail:hover {
+.text-block {
+  display: none;
   position: absolute;
-  top: 10px;
-  right: 10px;
-  left: 10px;
-  bottom: 10px;
-  background-color: black;
-  z-index: 1;
+  transform: translate(-50%, -50%);
+  top:50%;
+  left: 50%;
+  height: 50%;
+  width: 50%;
+  color: white;
+  border: 4px solid darkorange;
 }
-#picha{
-  padding-bottom: 30px;
-}
-*{
-  margin: 0;
-  padding; 0;
+.col-3 .text-block {
+  text-align: center;
 }

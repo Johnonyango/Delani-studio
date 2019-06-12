@@ -11,15 +11,52 @@ $("document").ready(function(){
     $("#p3").fadeToggle(1000);
     $("#img3").fadeToggle(1000);
   });
-});
-$("document").ready(function(){
-
-$("#button").Click(function(){
-  alert("Thank you for contacting us.");
-});
-$('.portfolio')(function(){
-  $('.col-3','.img-fluid').hover();
-  $('.col-3', '.img-fluid').toggle();
-  $('.col-3 p').show();
-});
+  $(".img-1").mouseenter(function(){
+    $(".p0").show();
+  });
+  $(".img-1").mouseleave(function(){
+    $(".p0").hide();
+  });
+  $(".img-2").mouseenter(function(){
+    $(".p").show();
+  });
+  $(".img-2").mouseleave(function(){
+    $(".p").hide();
+  });
+  $(".img-3").mouseenter(function(){
+    $(".p1").show();
+  });
+  $(".img-3").mouseleave(function(){
+    $(".p1").hide();
+  });
+  $(".img-4").mouseenter(function(){
+    $(".p2").show();
+  });
+  $(".img-4").mouseleave(function(){
+    $(".p2").hide();
+  });
+  $(".img-5").mouseenter(function(){
+    $(".p3").show();
+  });
+  $(".img-5").mouseleave(function(){
+    $(".p3").hide();
+  });
+  $(".img-6").mouseenter(function(){
+    $(".p4").show();
+  });
+  $(".img-6").mouseleave(function(){
+    $(".p4").hide();
+  });
+  $(".img-7").mouseenter(function(){
+    $(".p5").show();
+  });
+  $(".img-7").mouseleave(function(){
+    $(".p5").hide();
+  });
+  $(".img-8").mouseenter(function(){
+    $(".p6").show();
+  });
+  $(".img-8").mouseleave(function(){
+    $(".p6").hide();
+  });
 });
