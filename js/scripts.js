@@ -59,4 +59,7 @@ $("document").ready(function(){
   $(".img-8").mouseleave(function(){
     $(".p6").hide();
   });
+  $(".btn").click(function(){
+    alert("Thank you for contacting us. We'll get back shortly!");
+  });
 });
